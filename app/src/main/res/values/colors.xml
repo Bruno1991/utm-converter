@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ================================================= -->
+    <!-- PALETA PRINCIPAL                                 -->
+    <!-- ================================================= -->
+    <color name="colorPrimary">#2E7D32</color>        <!-- Verde principal -->
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <color name="colorSecondary">#1B5E20</color>      <!-- Verde escuro -->
+    <color name="colorOnSecondary">#FFFFFF</color>
+
+    <!-- ================================================= -->
+    <!-- FUNDO                                            -->
+    <!-- ================================================= -->
+    <color name="colorBackground">#121212</color>
+
+    <!-- ================================================= -->
+    <!-- OUTRAS CORES JÁ USADAS NO APP                    -->
+    <!-- (mantenha aqui se já existir no seu projeto)     -->
+    <!-- ================================================= -->
+    <color name="btn">#5C5D5D</color>
+    <color name="btn_pressed">#DEEEDD</color>
+    <color name="btn_text">#FFFFFF</color>
+
+    <!-- ================================================= -->
+    <!-- LAUNCHER ICON BACKGROUND (OBRIGATÓRIO)           -->
+    <!-- ================================================= -->
+    <color name="launcher_background">#4b5259</color>
+
+</resources>

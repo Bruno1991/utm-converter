@@ -1,0 +1,141 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- ================================================= -->
+        <!-- INPUT / COORDENADAS                              -->
+        <!-- ================================================= -->
+        <TextView
+            android:text="Coordenadas 🌐"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/inputLine"
+            android:inputType="textCapCharacters"
+            android:hint="Insira UTM ou GEO"
+            android:layout_marginTop="8dp"
+            android:padding="16dp"
+            android:background="#2e2e30"
+            android:textColor="@android:color/white"
+            android:textColorHint="#aaaaaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <!-- ================================================= -->
+        <!-- EXEMPLOS                                         -->
+        <!-- ================================================= -->
+        <TextView
+            android:text="Exemplos reais:"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/exampleSouth"
+            android:layout_marginTop="8dp"
+            android:padding="12dp"
+            android:text="🇧🇷 Cristo Redentor\nUTM 23K 683449 7460698\nGEO -22.95172057851477, -43.210460686792594"
+            android:textColor="@android:color/holo_blue_light"
+            android:background="#2e2e30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/exampleNorth"
+            android:layout_marginTop="8dp"
+            android:padding="12dp"
+            android:text="🇪🇬 Pirâmide de Gizé\nUTM 36R 319655 3317607\nGEO 29.97610826220141, 31.13075046059344"
+            android:textColor="@android:color/holo_blue_light"
+            android:background="#2e2e30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- ================================================= -->
+        <!-- CONVERTER                                       -->
+        <!-- ================================================= -->
+        <Button
+            android:id="@+id/buttonConvert"
+            android:text="Converter 🔄"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Button" />
+
+        <!-- ================================================= -->
+        <!-- RESULTADO                                        -->
+        <!-- ================================================= -->
+        <TextView
+            android:text="Resultado ✅"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/resultLine"
+            android:text="—"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:padding="16dp"
+            android:background="#2e2e30"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- ================================================= -->
+        <!-- AÇÕES (COPIAR / MAPS)                            -->
+        <!-- ================================================= -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/buttonCopy"
+                android:text="Copiar 📋"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                style="@style/Button" />
+
+            <Button
+                android:id="@+id/buttonMaps"
+                android:text="Maps 📍"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                style="@style/Button" />
+
+        </LinearLayout>
+
+        <!-- ================================================= -->
+        <!-- FOOTER                                          -->
+        <!-- ================================================= -->
+        <TextView
+            android:text="WGS84 · UTM · Proj4J\nPrecisão real"
+            android:textColor="#888888"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

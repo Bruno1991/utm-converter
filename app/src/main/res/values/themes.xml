@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ================================================= -->
+    <!-- TEMA PRINCIPAL DO APP                            -->
+    <!-- ================================================= -->
+    <style name="Theme.UTMConverter"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Cores principais -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+
+        <!-- Fundo -->
+        <item name="android:windowBackground">@color/colorBackground</item>
+
+    </style>
+
+</resources>
