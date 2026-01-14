@@ -1,4 +1,4 @@
-UTM Converter
+UTM Converter feito por: ChatGPT/Elias Bruno Silva
 
 Aplicativo Android leve, rápido e preciso para conversão de coordenadas geográficas entre os sistemas UTM (Universal Transverse Mercator) e Geográficas (Latitude / Longitude).
 
