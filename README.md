@@ -123,14 +123,6 @@ Latitude / Longitude
   <img src="screenshots/result_screen.png" width="250"/>
 </p>
 
-## 🎥 Demonstração
-
-[![Demonstração do projeto](docs/demo-thumb.png)](https://youtu.be/ID_DO_VIDEO)
-
-Ou assista direto:
-https://youtu.be/ID_DO_VIDEO
-
-
 📌 Roadmap
 
 
@@ -142,6 +134,6 @@ Você é livre para usar, modificar e distribuir, desde que mantenha os crédito
 
 👤 Autor
 
-Desenvolvido por Bruno (Bruno1991).
+Desenvolvido por Bruno (Bruno1991) / IA ChatGPT.
 
 Se tiver sugestões ou melhorias, fique à vontade para abrir uma issue ou pull request.
